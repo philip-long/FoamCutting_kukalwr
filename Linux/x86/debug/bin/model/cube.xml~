@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<conf>
+	<ecm>
+		<mask>
+			<size>5</size>
+			<nb_mask>180</nb_mask>
+		</mask>
+		<range>
+			<tracking>7</tracking>
+		</range>
+		<contrast>
+			<edge_threshold>5000</edge_threshold>
+			<mu1>0.5</mu1>
+			<mu2>0.5</mu2>
+		</contrast>
+	</ecm>
+	<sample>
+		<step>4</step>
+		<nb_sample>250</nb_sample>
+	</sample>
+	<camera>
+		<width>1600</width> 
+  		<height>1200</height> 
+  		<u0>764.38</u0> 
+  		<v0>623.20</v0> 
+  		<px>1761.24</px> 
+  		<py>1765.07</py> 
+	</camera>
+</conf>
+

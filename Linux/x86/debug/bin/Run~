@@ -1,0 +1,6 @@
+cd ../../..
+make clean 
+make
+cd x86/debug/bin
+sudo ./FastResearchInterfaceTest
+

@@ -1,0 +1,98 @@
+#VRML V2.0 utf8
+
+Group {
+children [
+
+# Object "box" 
+Shape {
+appearance Appearance { 
+ material Material {  }
+}
+geometry IndexedFaceSet {
+solid FALSE
+creaseAngle 0.785398
+coord Coordinate { 
+point [
+-0.0115 -0.0465 -0.135,
+0.0115  -0.0465 -0.135,
+0.0115  -0.0465 -0.091,
+-0.0115 -0.0465 -0.091,
+-0.0115  0.053 -0.135,
+0.0115   0.053 -0.135,
+0.0115   0.053 -0.091,
+-0.0115  0.053 -0.091,]
+}
+
+coordIndex [
+ 0, 1, 2, 3, -1,
+ 1, 5, 6, 2, -1,
+ 7, 6, 5, 4, -1,
+ 7, 3, 2, 6, -1,
+ 7, 4, 0, 3, -1,
+ 0, 4, 5, 1, -1]
+    color Color { 
+    color [ 0 0 0,
+1 1 1,
+1 1 1,
+1 1 1,
+1 1 1,
+1 1 1]
+}
+colorPerVertex FALSE
+}
+}
+
+# Object "box" 
+Shape {
+appearance Appearance { 
+ material Material {  }
+}
+geometry IndexedFaceSet {
+solid FALSE
+creaseAngle 0.785398
+coord Coordinate { 
+point [
+-0.0115 -0.0115 -0.089,
+0.0115 -0.0115 -0.089,
+0.0115 -0.0115 -0.045,
+-0.0115 -0.0115 -0.045,
+-0.0115 0.0115 -0.089,
+0.0115  0.0115 -0.089,
+0.0115  0.0115 -0.045,
+-0.0115 0.0115 -0.045]
+}
+
+coordIndex [
+ 0, 1, 2, 3, -1,
+ 1, 5, 6, 2, -1,
+ 7, 6, 5, 4, -1,
+ 7, 3, 2, 6, -1,
+ 7, 4, 0, 3, -1]
+    color Color { 
+    color [ 0 0 0,
+1 1 1,
+1 1 1,
+1 1 1,
+1 1 1,
+1 1 1]
+}
+colorPerVertex FALSE
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
+}

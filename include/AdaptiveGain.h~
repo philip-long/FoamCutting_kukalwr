@@ -1,0 +1,14 @@
+#ifndef ADAPTIVEGAIN_H
+#define ADAPTIVEGAIN_H
+
+class AdaptiveGain
+{
+    float lambdaInf,lambdaZero,lambdaSlope;
+    public:
+    void printvalues();
+    void setvalues(float,float ,float );
+    double calculateLambda(float Error);
+
+};
+
+#endif
