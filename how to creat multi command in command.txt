@@ -1,7 +1,0 @@
-first creat a file: filename
-write the commands you want 
-
-in command window, tape:
-chmod +x filename
-
- ./filename
