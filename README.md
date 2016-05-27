@@ -8,6 +8,9 @@ useful and mathematically robust. In addition to that
 the visual servoing controllers worked very well and some 
 of the calibration stuff has served me well.
 
+Useful functions found in the FunctionLibrary and 
+also ScriptLibrary
+
 in the make folder FastResearchInterfaceTest, Makefile
 
 $(OBJ_DIR)/%.$(OBJECT_FILE_EXT): $(SRC_DIR)/FastResearchInterfaceTest/%.cpp
